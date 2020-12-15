@@ -528,14 +528,14 @@ footer {
 }
 .footer h3 {
   color: var(--additional-color);
+  margin-bottom: 20px;
 }
-.right-part {
-  width: 206px;
+.сenter-part {
+  margin-right: 93px;
 }
 .footerish {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   padding: 0;
 
   --color4: var(--additional-color);
@@ -565,6 +565,62 @@ address {
 }
 address a {
   color: var(--second-additional-color);
+}
+.form-submit {
+  display: flex;
+}
+.form-submit .form-input {
+  margin-right: 12px;
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+
+  background-color: #2f303a;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.form-input::placeholder {
+  display: flex;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+.button-submit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
+  background-color: var(--accent-color);
+  color: var(--additional-color);
+  --color4: var(--additional-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: none;
+}
+.button-submit svg {
+  margin-left: 10px;
+  background-color: var(--accent-color);
+  --color4: var(--additional-color);
 }
 
 /* PORTFOLIO PAGE STYLING */
