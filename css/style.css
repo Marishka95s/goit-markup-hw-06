@@ -206,7 +206,7 @@ img {
 .contact-nav a:hover,
 .contact-nav a:focus {
   color: var(--accent-color);
-  --color3: var(--accent-color);
+  --color4: var(--accent-color);
 }
 
 /* HERO */
@@ -456,7 +456,7 @@ img {
 .socials-links a:hover,
 .socials-links a:focus {
   background-color: var(--accent-color);
-  --color4: var(--additional-color);
+  --color5: var(--additional-color);
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 50%;
@@ -506,7 +506,7 @@ img {
 .clients-list a:focus,
 .thumb-clients:hover,
 .thumb-clients:focus {
-  --color4: var(--accent-color);
+  --color5: var(--accent-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
@@ -530,15 +530,19 @@ footer {
   color: var(--additional-color);
   margin-bottom: 20px;
 }
+.left-part {
+  min-width: 231px;
+}
 .сenter-part {
   margin-right: 93px;
+  width: 206px;
 }
 .footerish {
   display: flex;
   justify-content: space-between;
   padding: 0;
 
-  --color4: var(--additional-color);
+  --color5: var(--additional-color);
 }
 .contact-nav-footer {
   margin-top: 20px;
@@ -608,7 +612,7 @@ address a {
 
   background-color: var(--accent-color);
   color: var(--additional-color);
-  --color4: var(--additional-color);
+  --color5: var(--additional-color);
 
   font-weight: 700;
   font-size: 16px;
@@ -620,7 +624,7 @@ address a {
 .button-submit svg {
   margin-left: 10px;
   background-color: var(--accent-color);
-  --color4: var(--additional-color);
+  --color5: var(--additional-color);
 }
 
 /* PORTFOLIO PAGE STYLING */
