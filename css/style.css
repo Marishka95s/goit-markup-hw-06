@@ -365,7 +365,9 @@ img {
   fill: var(--main-text-color);
 }
 .modal input:focus,
-.modal input:hover {
+.modal input:hover,
+.modal textarea:hover,
+.modal textarea:focus {
   border-color: var(--accent-color);
 
   transition-duration: 250ms;
