@@ -370,6 +370,7 @@ img {
 .modal textarea:focus {
   border-color: var(--accent-color);
   outline: none;
+  cursor: pointer;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
